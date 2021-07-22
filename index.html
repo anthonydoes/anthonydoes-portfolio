@@ -130,6 +130,29 @@
     
       </section>
       </section>  
+
+      <section class="contact" id="contact">
+        <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>   
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Your Role: <select name="role[]" multiple>
+              <option value="leader">Leader</option>
+              <option value="follower">Follower</option>
+            </select></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </section>
     
     <footer>
     <!-- <img src=""> GET A LOGO FOR ....website made with love by GNC, or Anthony Yannos blah blah blah-->
@@ -139,6 +162,7 @@
         <a href="#"><img src="/images/linkedin-icon.svg" style="stroke: rgb(243, 240, 240); fill: red;"></a>
       </nav>  
     </footer>
+  
           
     <div class="modal">
       <div class="modal-background"></div>

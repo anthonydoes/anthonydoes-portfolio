@@ -1,6 +1,4 @@
 
-
-
 // Typewriter effect
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
