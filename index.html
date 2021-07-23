@@ -132,27 +132,26 @@
       </section>  
 
       <section class="contact" id="contact">
+        <h2 class="contactTagline">Let's get in touch</h2>
+        <div class="formDiv">
         <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>   
+          <p class="formAlign">
+            <label>Name:     <input type="text" name="name" /></label>   
           </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
+          <p class="formAlign">
+            <label>Email:     <input type="email" name="email" /></label>
           </p>
-          <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
+          <p class="formAlign">
+            <label>Message:     <textarea name="message"></textarea></label>
           </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
+          <p class="formAlign">
+            <button type="submit">Submit</button>
           </p>
         </form>
+      </div>
       </section>
+
+      
     
     <footer>
     <!-- <img src=""> GET A LOGO FOR ....website made with love by GNC, or Anthony Yannos blah blah blah-->
@@ -173,7 +172,7 @@
       
     
     
-    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="jquery.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

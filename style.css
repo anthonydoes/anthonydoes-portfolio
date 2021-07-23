@@ -159,9 +159,69 @@ h3 {
   color: #7899b8ff;
 }
 
+.contactTagline {
+  text-align: center;
+}
+
+form {
+    background-color: #40404054;
+    padding: 25px;
+    border-radius: 3%;
+    box-shadow: 0px 0px 20px 0px #7899b8ff;
+}
+
+label {
+  color: #fefefe;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+}
+
+input, textarea {
+  width: 300px;
+  background-color: #02182c2e;
+  color: #7899b8ff;
+  font-weight: 700;
+  font-size: 16px;
+  border: 1px solid #7899b8ff;
+}
+
+input {
+  height: 25px;
+  text-align: center;
+}
+
+textarea {
+  height: 100px;
+  padding: 5px;
+}
+
+.formAlign {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+button {
+  background-color: #7899b8ff;
+  padding: 15px;
+  width: 100px;
+  color: #091a33ff;
+  font-weight: 700;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 13%;
+  box-shadow: 0 0 20px 0 #000;
+  font-family: "Josefin Sans";
+}
+
+
+
 footer {
-  width: 100%;
-  padding: 20px 40px 40px 20px;
+  padding: 40px 40px 40px 20px;
 }
 
 footer nav a {
@@ -244,9 +304,16 @@ a.clicked {
   height: 300px; 
 }
 
-.about {
+.about, .big {
   border-bottom: 3px solid #7899b8ff;
+}
 
+.big {
+  padding-bottom: 30px;
+}
+
+.contact {
+  padding-top: 50px;
 }
 
 .section-about div.about {
@@ -255,7 +322,7 @@ a.clicked {
 }
 
 .about h2 {
-  padding-top: 10px;
+  padding-top: 0x;
 }
 
 h3 {
@@ -266,6 +333,7 @@ h3 {
 
 .photo img {
   filter: none;
+  max-width: 340px;
 }
 
 .photos {
@@ -275,6 +343,10 @@ h3 {
 
 .filters-list {
   border-bottom: 3px solid #7899b8ff;
+}
+
+form {
+  max-width: 300px;
 }
 
 }

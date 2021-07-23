@@ -89,7 +89,6 @@ $('.show-filters').on('click', function(){
     $('.show-filters').text('Hide filters')
   }
   
-  //   this will block the default behaviour of the # href jumping to the top of the page
   return false
    
 })
