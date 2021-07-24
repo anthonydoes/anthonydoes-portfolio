@@ -387,7 +387,7 @@ footer {
 
 @media (max-width:370px) {
   .photos {
-    padding-left: 5px;
+    margin-left: 10px;
   }
 }
 
