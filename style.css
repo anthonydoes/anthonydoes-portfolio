@@ -234,7 +234,10 @@ textarea {
   }
 
 footer {
-  padding: 40px 40px 40px 20px;
+  margin-top: 75px;;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 footer nav a {
@@ -377,6 +380,9 @@ input {
   border-radius: 0;
 }
 
+footer {
+  justify-content: space-evenly; 
+}
 
 }
 
