@@ -132,20 +132,27 @@
       </section>  
 
       <section class="contact" id="contact">
-        <h2 class="contactTagline">Let's get in touch</h2>
+        <h2 class="contactTagline">Let's 
+          <a href="" class="typewrite" data-period="1500" data-type='[ "work together..", "get in touch..", "build something awesome!"]'>
+            <span class="wrap"></span>
+          </a>
+        </h2>
         <div class="formDiv">
         <form name="contact" method="POST" data-netlify="true">
           <p class="formAlign">
-            <label>Name:     <input type="text" name="name" /></label>   
+            <label>Name: </label>
+            <input type="text" name="name" />   
           </p>
           <p class="formAlign">
-            <label>Email:     <input type="email" name="email" /></label>
+            <label>Email: </label>
+            <input type="email" name="email" />
           </p>
           <p class="formAlign">
-            <label>Message:     <textarea name="message"></textarea></label>
+            <label>Message: </label>
+            <textarea name="message"></textarea>
           </p>
           <p class="formAlign">
-            <button type="submit">Submit</button>
+            <button type="submit" class="button">Send</button>
           </p>
         </form>
       </div>
