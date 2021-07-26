@@ -355,6 +355,15 @@ h3 {
   margin-bottom: 40px;
 }
 
+.modal-content img {
+  max-width: 100%;
+  margin-left: 40px;
+}
+
+.modal-close {
+  right: 31%;
+}
+
 .filters-list {
   border-bottom: 3px solid #7899b8ff;
 }
