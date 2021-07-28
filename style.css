@@ -74,12 +74,20 @@ a:hover {
   margin-bottom: 25px;
 }
 
-.aboutButton {
+.aboutButton, .ghButton {
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   background-color: aliceblue;
   color:rgb(49, 49, 49);
   font-weight: 900;
+}
+
+.aboutButton {
+  background-color: aliceblue;
+}
+
+.ghButton{
+  background-color: rgb(5, 209, 148);
 }
 
 a {
