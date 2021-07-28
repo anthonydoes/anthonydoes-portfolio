@@ -362,6 +362,10 @@ h3 {
   margin-bottom: 40px;
 }
 
+.photo {
+  margin: 0;
+}
+
 .modal-content img {
   max-width: 100%;
   margin-left: 40px;
