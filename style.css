@@ -70,8 +70,8 @@ a:hover {
 
 .about p {
   font-size: 18px;
-  line-height: 1.2;
-  margin-bottom: 25px;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
 
 .aboutButton, .ghButton {
@@ -88,6 +88,11 @@ a:hover {
 
 .ghButton{
   background-color: rgb(5, 209, 148);
+}
+
+.aboutPills {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 a {
