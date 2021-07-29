@@ -109,7 +109,7 @@ h3 {
 
 
 .big {
-  background-color: rgba(16, 75, 55, 0.295);
+  background-color: rgb(23 36 31 / 30%);
   padding: 10px 20px 20px 60px;
   border-radius: 20px;
 }
@@ -212,7 +212,8 @@ h3 {
 }
 
 .contact {
-  padding-top: 100px;
+  padding-top: 60px;
+  border-top: 3px solid rgb(143, 151, 158);
 }
 
 .contactTagline {
@@ -222,7 +223,7 @@ h3 {
 
 form {
     background-color: #40404054;
-    padding: 25px;
+    padding: 25px 200px 25px 200px;
     border-radius: 3%;
     box-shadow: 0px 0px 20px 0px #7899b8ff;
 }
@@ -244,6 +245,7 @@ input, textarea {
   font-weight: 700;
   font-size: 16px;
   border: 1px solid #7899b8ff;
+  border-radius: 5px;
 }
 
 input {
@@ -428,6 +430,7 @@ h3 {
 form {
   max-width: 300px;
   margin-bottom: 60px;
+  padding: 25px;
 }
 
 input {
