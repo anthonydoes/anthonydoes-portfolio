@@ -52,16 +52,14 @@ var TxtType = function(el, toRotate, period) {
         }
     };
 
-// Lightbox
+// Lightbox 
 $('.photos a').on('click', function() {
   
   var currentImage = $(this).html()
 
-  //here we grab the modal and set it to our current image that we've just clicked on
   $('.modal-content').html(currentImage)
 
   $('.modal').fadeIn(600)
-  //block the default action of following the href attribute
   return false
 })
 
@@ -75,11 +73,6 @@ $('.modal-close, .modal-background').on('click', function() {
 // Filters
 
 $('.show-filters').on('click', function(){
-  
-// 1. When our nav is expanded, collapse it
-// 2. change text of show filters to 'show filters'
-// 3. otherwise, if nav is collapsed, expand it
-// 4. change the text to say 'hide filter'
   
   if ($('.filters-list').is(':visible')) {
     $('.filters-list').slideUp()
@@ -97,15 +90,9 @@ $('.filters-list a').on('click', function() {
   
   var filter = $(this).attr('data-filter')
   
-  console.log(filter)
-  
-//   1. hide all photos
-//   2. show the photos with a particular filter
-  
   $('.photo').hide()
   $(filter).show()
   
-//   this will add a class name of selected to the current filter link that we clicked on
   $('.filters-list a').removeClass('selected')
   $(this).addClass('selected')
   
@@ -116,7 +103,6 @@ $('.filters-list a').on('click', function() {
 
 
 // Page scroll color effects
-
 
 $(document).on('scroll', function() {
   var pixelsFromTop = $(document).scrollTop()
@@ -139,15 +125,10 @@ $(document).on('scroll', function() {
     $('body').css('background-color', '#091a33ff')
   }
 
-
   var documentHeight = $(document).height()
   var windowHeight = $(window).height()
-
   var difference = documentHeight - windowHeight
-
   var percentage = 100 * pixelsFromTop / difference
-
-  console.log(percentage)
   
   $('.bar').css('width', percentage + '%')
   
