@@ -8,6 +8,7 @@ body {
 	color: #f4f4f4;
 	margin: 20px auto 20px auto;
 	width: 1120px;
+  transition: background-color 1.2s ease;
 }
 
 h1 {
