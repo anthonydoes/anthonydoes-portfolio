@@ -472,6 +472,10 @@ footer {
   justify-content: space-evenly; 
 }
 
+footer p {
+  font-size: 14px;
+}
+
 }
 
 @media (max-width:370px) {
