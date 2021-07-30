@@ -117,10 +117,10 @@ $(document).on('scroll', function() {
     $('body').css('background-color', '#091a33ff')
   } else if (pixelsFromTop < 1400) {
     $('body').css('background-color', 'rgb(33 65 112)')
-  } else if (pixelsFromTop < 2200) {
-    $('body').css('background-color', '#091a33ff')
+  } else if (pixelsFromTop < 2400) {
+    $('body').css('background-color', 'rgb(33 65 112)')
   } else if (pixelsFromTop < 3000) {
-    $('body').css('background-color', '#000000')
+    $('body').css('background-color', '#091a33ff')
   } else {
     $('body').css('background-color', '#091a33ff')
   }

@@ -309,7 +309,8 @@ textarea {
   }
 
 footer {
-  margin-top: 75px;;
+  margin-top: 75px;
+  margin-right: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
