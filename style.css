@@ -11,6 +11,10 @@ body {
   transition: background-color 1.2s ease;
 }
 
+.hidden {
+  transform: translateY(-100%);
+}
+
 h1 {
 	font-size: 28px;
 	font-weight: 700;
