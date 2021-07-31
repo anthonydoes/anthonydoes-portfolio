@@ -11,18 +11,55 @@ body {
   transition: background-color 1.2s ease;
 }
 
-button.themeToggle {
-    padding: 5px 10px 5px 10px;
-    border-radius: 20px;
-    color:#fefefe;
-    font-weight: 900;
-    background-color: #3a3a3a;
-    margin-left: 20px;
+  span.themeToggleHidden {
+    visibility: hidden;
   }
 
-  button.themeToggleHidden {
-    display: none;
+  .switch {
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    position: relative;
+    top: -6px;
+    right: -15px;
   }
+  
+  .toggle-thumb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 15px;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #475569;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  .toggle-thumb:before {
+    content: "";
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: #E2E8F0;
+    transition: .4s all ease;
+  }
+  
+  .checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .checkbox:checked + .toggle-thumb:before {
+    transform: translateX(26px);
+  }
+
 
 .hidden {
   transform: translateY(-100%);
@@ -404,7 +441,7 @@ a.clicked {
   height: 300px; 
 }
 
-.about, .big {
+.about {
   border-bottom: 3px solid #7899b8ff;
 }
 
@@ -467,6 +504,10 @@ input {
   width: 202px;
 }
 
+.contact {
+    border-top: 3px solid rgb(143, 151, 158);
+}
+
 .contactTagline {
   font-size: 26px;
 }
@@ -485,18 +526,14 @@ footer p {
   font-size: 14px;
 }
 
-button.themeToggleHidden {
-    padding: 5px 10px 5px 10px;
-    border-radius: 20px;
-    color: #fefefe;
-    font-style: 16px;
-    font-weight: 900;
-    background-color: #3a3a3a;
-    margin-left: 20px;
-    display: block;
+span.themeToggleHidden {
+    visibility: visible;
+  }
+  
+  .switch {
     position: absolute;
-    right: 15px;
-    margin-top: 15px;
+    top: 32px;
+    right: 0px;
   }
 
 }

@@ -22,28 +22,28 @@ mobileBtn.addEventListener("click", function() {
   }
 });
 
-// Change button text desktop
-const btnText = document.getElementById("themeToggle");
+// // Change button text desktop
+// const btnText = document.getElementById("themeToggle");
 
-btnText.addEventListener("click", ()=>{
+// btnText.addEventListener("click", ()=>{
 
-    if(btnText.innerText === "Light Mode"){
-      btnText.innerText = "Dark Mode";
-    }else{
-      btnText.innerText= "Light Mode";
-    }
-})
-// Change button text mobile
-const mobileBtnText = document.getElementById("themeToggleHidden");
+//     if(btnText.innerText === "Light Mode"){
+//       btnText.innerText = "Dark Mode";
+//     }else{
+//       btnText.innerText= "Light Mode";
+//     }
+// })
+// // Change button text mobile
+// const mobileBtnText = document.getElementById("themeToggleHidden");
 
-mobileBtnText.addEventListener("click", ()=>{
+// mobileBtnText.addEventListener("click", ()=>{
 
-    if(mobileBtnText.innerText === "Light Mode"){
-      mobileBtnText.innerText = "Dark Mode";
-    }else{
-      mobileBtnText.innerText= "Light Mode";
-    }
-})
+//     if(mobileBtnText.innerText === "Light Mode"){
+//       mobileBtnText.innerText = "Dark Mode";
+//     }else{
+//       mobileBtnText.innerText= "Light Mode";
+//     }
+// })
 
 // Typewriter effect
 var TxtType = function(el, toRotate, period) {
