@@ -488,9 +488,10 @@ footer p {
 button.themeToggleHidden {
     padding: 5px 10px 5px 10px;
     border-radius: 20px;
-    color: #3a3a3a;;
+    color: #fefefe;
+    font-style: 16px;
     font-weight: 900;
-    background-color: #fefefe;
+    background-color: #3a3a3a;
     margin-left: 20px;
     display: block;
     position: absolute;
