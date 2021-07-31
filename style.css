@@ -367,13 +367,13 @@ footer {
 
 footer nav a {
   float: right;
-  width: 24px;
   margin-left: 10px;
   display: block;
 }
 
 footer img {
     filter: invert(100%);
+    width: 30px;
 }
 
 .photos a {
@@ -519,8 +519,9 @@ input {
 }
 
 footer {
-  justify-content: space-evenly; 
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;}
 
 footer p {
   font-size: 14px;

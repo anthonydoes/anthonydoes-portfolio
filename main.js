@@ -1,7 +1,7 @@
 // Light/dark mode toggle
 
 const btn = document.querySelector(".themeToggle");
-const theme = document.querySelector("#theme-link");
+let theme = document.querySelector("#theme-link");
 btn.addEventListener("click", function() {
   // Swap out the URL for the different stylesheets
   if (theme.getAttribute("href") == "/style.css") {
@@ -12,15 +12,28 @@ btn.addEventListener("click", function() {
 });
 
 const mobileBtn = document.querySelector(".themeToggleHidden");
-const mobileTheme = document.querySelector("#theme-link");
+ theme = document.querySelector("#theme-link");
 mobileBtn.addEventListener("click", function() {
   // Swap out the URL for the different stylesheets
-  if (mobileTheme.getAttribute("href") == "/style.css") {
-    mobileTheme.href = "/light-theme.css";
+  if (theme.getAttribute("href") == "/style.css") {
+    theme.href = "/light-theme.css";
   } else {
-    mobileTheme.href = "/style.css";
+    theme.href = "/style.css";
   }
 });
+
+const btnFooter = document.querySelector(".themeToggleFooter");
+ theme = document.querySelector("#theme-link");
+btnFooter.addEventListener("click", function() {
+  // Swap out the URL for the different stylesheets
+  if (theme.getAttribute("href") == "/style.css") {
+    theme.href = "/light-theme.css";
+  } else {
+    theme.href = "/style.css";
+  }
+});
+
+
 
 // // Change button text desktop
 // const btnText = document.getElementById("themeToggle");

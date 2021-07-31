@@ -284,7 +284,6 @@ h3 {
 
 .contact {
   padding-top: 60px;
-  border-top: 3px solid rgb(143, 151, 158);
 }
 
 .contactTagline {
@@ -368,9 +367,12 @@ footer {
 
 footer nav a {
   float: right;
-  width: 24px;
   margin-left: 10px;
   display: block;
+}
+
+footer img {
+    width: 30px;
 }
 
 .photos a {
