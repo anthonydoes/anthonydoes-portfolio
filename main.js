@@ -1,11 +1,5 @@
 // Light/dark mode toggle
 
-// let element = document.body;
-
-// function themeToggle() {
-//   element.classList.toggle("light-mode");
-// }
-
 const btn = document.querySelector(".themeToggle");
 const theme = document.querySelector("#theme-link");
 btn.addEventListener("click", function() {
@@ -17,6 +11,16 @@ btn.addEventListener("click", function() {
   }
 });
 
+const mobileBtn = document.querySelector(".themeToggleHidden");
+const mobileTheme = document.querySelector("#theme-link");
+mobileBtn.addEventListener("click", function() {
+  // Swap out the URL for the different stylesheets
+  if (mobileTheme.getAttribute("href") == "/style.css") {
+    mobileTheme.href = "/light-theme.css";
+  } else {
+    mobileTheme.href = "/style.css";
+  }
+});
 
 // Typewriter effect
 var TxtType = function(el, toRotate, period) {

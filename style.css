@@ -21,7 +21,7 @@ button.themeToggle {
 }
 
 button.themeToggleHidden {
-  visibility: hidden;
+  display: none;
 }
 
 .hidden {
@@ -497,7 +497,7 @@ button.themeToggleHidden {
   font-weight: 900;
   background-color: #fefefe;
   margin-left: 20px;
-  visibility: visible;
+  display: block;
   position: absolute;
   right: 15px;
   margin-top: 15px;
