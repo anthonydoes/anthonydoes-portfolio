@@ -4,25 +4,25 @@ body {
 	font-family: "Josefin Sans";
 	font-size: 16px;
 	line-height: 1.5;
-	background-color: #091a33ff;
-	color: #f4f4f4;
+	background-color: #fefefe;
+	color: #3a3a3a;
 	margin: 20px auto 20px auto;
 	width: 1120px;
   transition: background-color 1.2s ease;
 }
 
 button.themeToggle {
-  padding: 5px 10px 5px 10px;
-  border-radius: 20px;
-  color: #3a3a3a;;
-  font-weight: 900;
-  background-color: #fefefe;
-  margin-left: 20px;
-}
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color:#fefefe;
+    font-weight: 900;
+    background-color: #3a3a3a;
+    margin-left: 20px;
+  }
 
-button.themeToggleHidden {
-  display: none;
-}
+  button.themeToggleHidden {
+    display: none;
+  }
 
 .hidden {
   transform: translateY(-100%);
@@ -41,7 +41,7 @@ button.themeToggleHidden {
   left: 0;
   width: 0;
   height: 10px;
-  background-color: #1ab660;
+  background-color: #2f4ae4;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
 
 .typewrite {
   text-decoration: none;
-  color: #7899b8ff;
+  color: rgb(7, 68, 126);
   }
 
 header {
@@ -66,7 +66,7 @@ header {
 
 nav a {
   text-decoration: none;
-  color: #f4f4f4;
+  color: #3a3a3a;
   font-weight: 700;
   margin: 0 0 0 32px;
   transition: color 1s;
@@ -74,7 +74,7 @@ nav a {
 }
 
 a:hover {
-  color: #7899b8ff;
+    color: rgb(7, 68, 126);
 }
 
  .section-about {
@@ -111,13 +111,12 @@ a:hover {
 .aboutButton, .ghButton {
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
-  background-color: aliceblue;
   color:rgb(49, 49, 49);
   font-weight: 900;
 }
 
 .aboutButton {
-  background-color: aliceblue;
+  background-color: rgb(209, 221, 231);
 }
 
 .ghButton{
@@ -143,7 +142,7 @@ h3 {
 
 
 .big {
-  background-color: rgb(23 36 31 / 30%);
+  background-color: #afe5d0;
   padding: 10px 20px 20px 60px;
   border-radius: 20px;
 }
@@ -169,7 +168,7 @@ h3 {
 }
 
 .filters a {
-  color: #fff;
+  color: #3a3a3a;
   font-size: 16px;
   margin-right: 15px;
   font-weight: 500;
@@ -208,7 +207,7 @@ h3 {
 } 
 
 .stack {
-  color: #7cb6ed;
+  color: #3a3a3a;
   text-align: right;
   font-weight: 700;
   font-style: italic;
@@ -217,6 +216,7 @@ h3 {
 .designPill, .devPill, .apiPill {
   padding: 5px 10px 5px 10px;
   border-radius: 20px;
+  color: #fefefe;
 }
 
 .designPill {
@@ -229,7 +229,6 @@ h3 {
 
 .apiPill {
   background-color: rgb(23, 216, 152);
-  color: #3f3f3f;
 }
 
 .cardText {
@@ -241,7 +240,7 @@ h3 {
 
 .cardText h4 {
   font-size: 22px;
-  color: #7899b8ff;
+  color: #3a3a3a;
   margin-bottom: 10px;
 }
 
@@ -256,14 +255,14 @@ h3 {
 }
 
 form {
-    background-color: #40404054;
+    background-color: #44c3c38c;
     padding: 25px 200px 25px 200px;
     border-radius: 3%;
     box-shadow: 0px 0px 20px 0px #7899b8ff;
 }
 
 label {
-  color: #fefefe;
+  color: #3a3a3a;
   padding-right: 15px;
 }
 
@@ -275,7 +274,7 @@ label {
 input, textarea {
   width: 300px;
   background-color: #02182c2e;
-  color: #7899b8ff;
+  color: #3a3a3a;
   font-weight: 700;
   font-size: 16px;
   border: 1px solid #7899b8ff;
@@ -299,7 +298,7 @@ textarea {
 }
 
 .button {
-  background-color: #7899b8ff;
+  background-color: #625df580;
   color: #091a33ff;
   font-weight: 700;
   font-size: 18px;
@@ -334,10 +333,6 @@ footer nav a {
   width: 24px;
   margin-left: 10px;
   display: block;
-}
-
-footer img {
-    filter: invert(100%);
 }
 
 .photos a {
@@ -491,18 +486,17 @@ footer p {
 }
 
 button.themeToggleHidden {
-  padding: 5px 10px 5px 10px;
-  border-radius: 20px;
-  color: #3a3a3a;;
-  font-weight: 900;
-  background-color: #fefefe;
-  margin-left: 20px;
-  display: block;
-  position: absolute;
-  right: 15px;
-  margin-top: 15px;
-}
-
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: #3a3a3a;;
+    font-weight: 900;
+    background-color: #fefefe;
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    margin-top: 15px;
+  }
 
 }
 

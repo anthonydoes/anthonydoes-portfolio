@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="/style.css" rel="stylesheet">
+    <link href="/style.css" rel="stylesheet" id="theme-link">
     <title>Anthony Does</title>
 </head>
 <body>
@@ -17,10 +17,11 @@
     </h1>
     
         <nav>
-        <a href="#about">About</a>
+          <a href="#about">About</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
-      </nav>
+          <button class="themeToggle">Toggle Dark-Mode</button>      
+        </nav>
     </header>
     
     <p class="headerTagLine">Front End Design & Development</p>
@@ -31,6 +32,7 @@
       <div class="about-photo">
     </div>
     <div class="about" id="about">
+      <button class="themeToggleHidden">Light / Dark</button>      
       <h2>Hi.</h2>
       <p>Thanks for stopping by 👋</p>
     

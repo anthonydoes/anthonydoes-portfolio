@@ -1,3 +1,26 @@
+// Light/dark mode toggle
+
+const btn = document.querySelector(".themeToggle");
+const theme = document.querySelector("#theme-link");
+btn.addEventListener("click", function() {
+  // Swap out the URL for the different stylesheets
+  if (theme.getAttribute("href") == "/style.css") {
+    theme.href = "/light-theme.css";
+  } else {
+    theme.href = "/style.css";
+  }
+});
+
+const mobileBtn = document.querySelector(".themeToggleHidden");
+const mobileTheme = document.querySelector("#theme-link");
+mobileBtn.addEventListener("click", function() {
+  // Swap out the URL for the different stylesheets
+  if (mobileTheme.getAttribute("href") == "/style.css") {
+    mobileTheme.href = "/light-theme.css";
+  } else {
+    mobileTheme.href = "/style.css";
+  }
+});
 
 // Typewriter effect
 var TxtType = function(el, toRotate, period) {
@@ -104,35 +127,35 @@ $('.filters-list a').on('click', function() {
 
 // Page scroll color effects
 
-$(document).on('scroll', function() {
-  var pixelsFromTop = $(document).scrollTop()
+// $(document).on('scroll', function() {
+//   var pixelsFromTop = $(document).scrollTop()
 
-  if (pixelsFromTop > 50) {
-    $('header').addClass('hidden')
-  } else {
-    $('header').removeClass('hidden')
-  }
+//   if (pixelsFromTop > 50) {
+//     $('header').addClass('hidden')
+//   } else {
+//     $('header').removeClass('hidden')
+//   }
 
-  if (pixelsFromTop < 600) {
-    $('body').css('background-color', '#091a33ff')
-  } else if (pixelsFromTop < 1400) {
-    $('body').css('background-color', 'rgb(33 65 112)')
-  } else if (pixelsFromTop < 2400) {
-    $('body').css('background-color', 'rgb(33 65 112)')
-  } else if (pixelsFromTop < 3000) {
-    $('body').css('background-color', '#091a33ff')
-  } else {
-    $('body').css('background-color', '#091a33ff')
-  }
+  // if (pixelsFromTop < 600) {
+  //   $('body').css('background-color', '#091a33ff')
+  // } else if (pixelsFromTop < 1400) {
+  //   $('body').css('background-color', 'rgb(33 65 112)')
+  // } else if (pixelsFromTop < 2400) {
+  //   $('body').css('background-color', 'rgb(33 65 112)')
+  // } else if (pixelsFromTop < 3000) {
+  //   $('body').css('background-color', '#091a33ff')
+  // } else {
+  //   $('body').css('background-color', '#091a33ff')
+  // }
 
-  var documentHeight = $(document).height()
-  var windowHeight = $(window).height()
-  var difference = documentHeight - windowHeight
-  var percentage = 100 * pixelsFromTop / difference
+//   var documentHeight = $(document).height()
+//   var windowHeight = $(window).height()
+//   var difference = documentHeight - windowHeight
+//   var percentage = 100 * pixelsFromTop / difference
   
-  $('.bar').css('width', percentage + '%')
+//   $('.bar').css('width', percentage + '%')
   
-})
+// })
 
 
 
