@@ -522,7 +522,9 @@ input {
 }
 
 footer {
-  justify-content: space-evenly; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 footer p {
