@@ -36,6 +36,7 @@ span.themeToggleHidden {
   background-color: #c9cbf8;
   border-radius: 40px;
   cursor: pointer;
+  transition: .4s all ease;
 }
 
 .toggle-thumb:before {
@@ -521,7 +522,8 @@ input {
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;}
+  justify-content: center;
+}
 
 footer p {
   font-size: 14px;
