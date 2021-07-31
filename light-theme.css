@@ -244,12 +244,21 @@ h3 {
   max-width: 300px;
 } 
 
-.stack {
+.viewButton {
   color: #3a3a3a;
-  text-align: right;
+  padding: 5px 10px 5px 10px;
+  border-radius: 20px;
+  border: 2px solid #3a3a3a;
+  text-align: center;
   font-weight: 700;
-  font-style: italic;
+  transition: 0.6s ease;
 }
+
+.viewButton:hover {
+    background-color: #3a3a3a;
+    color: #fefefe;
+    transition: 0.6s ease;
+  }
 
 .designPill, .devPill, .apiPill {
   padding: 5px 10px 5px 10px;
