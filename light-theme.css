@@ -20,6 +20,10 @@ button.themeToggle {
     margin-left: 20px;
   }
 
+  button.themeToggleHidden {
+    display: none;
+  }
+
 .hidden {
   transform: translateY(-100%);
 }
@@ -480,6 +484,19 @@ footer {
 footer p {
   font-size: 14px;
 }
+
+button.themeToggleHidden {
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+    color: #3a3a3a;;
+    font-weight: 900;
+    background-color: #fefefe;
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+    right: 15px;
+    margin-top: 15px;
+  }
 
 }
 

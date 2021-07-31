@@ -1,11 +1,5 @@
 // Light/dark mode toggle
 
-// let element = document.body;
-
-// function themeToggle() {
-//   element.classList.toggle("light-mode");
-// }
-
 const btn = document.querySelector(".themeToggle");
 const theme = document.querySelector("#theme-link");
 btn.addEventListener("click", function() {
