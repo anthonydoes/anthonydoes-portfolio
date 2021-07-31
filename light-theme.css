@@ -65,7 +65,7 @@ body {
   transform: translateY(-100%);
 }
 
-.progress {
+/* .progress {
   position: fixed;
   top: 0;
   left: 0;
@@ -79,7 +79,7 @@ body {
   width: 0;
   height: 10px;
   background-color: #2f4ae4;
-}
+} */
 
 h1 {
 	font-size: 28px;
@@ -131,6 +131,7 @@ a:hover {
   background-image: url("/images/jackson-so-_t-l5FFH8VA-unsplash.jpg");
   background-size: cover;
   background-position: center;
+  filter: opacity(var(--value, 100%)); --value:80%;
 }
 
 .about h2 {
