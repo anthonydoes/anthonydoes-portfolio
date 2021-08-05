@@ -106,12 +106,14 @@ nav a {
   color: #3a3a3a;
   font-weight: 700;
   margin: 0 0 0 32px;
-  transition: color 1s;
+  transition: 0.5s ease;
   font-size: 18px;
 }
 
-a:hover {
-    color: rgb(7, 68, 126);
+nav a:hover {
+    color: #7899b8ff;
+    border-bottom: 3px solid #f4f4f4;
+    transition: 0.5s ease;
 }
 
  .section-about {
@@ -244,19 +246,19 @@ h3 {
   max-width: 300px;
 } 
 
-.viewButton {
-  color: #3a3a3a;
+a.viewButton {
+  color: #fefefe;
   padding: 5px 10px 5px 10px;
-  border-radius: 20px;
-  border: 2px solid #3a3a3a;
+  border-radius: 3px;
+  background-color: #3a3a3a;
   text-align: center;
   font-weight: 700;
   transition: 0.6s ease;
 }
 
-.viewButton:hover {
-    background-color: #3a3a3a;
-    color: #fefefe;
+a.viewButton:hover {
+    background-color: #fefefe;
+    color: #3a3a3a;
     transition: 0.6s ease;
   }
 
@@ -345,6 +347,7 @@ textarea {
 
 .button {
   background-color: #625df580;
+  border-color: #625df580;
   color: #091a33ff;
   font-weight: 700;
   font-size: 18px;
@@ -424,6 +427,54 @@ a.clicked {
   max-width: 760px;
   width: 90%;
   transform: translate(-50%, -50%);
+}
+
+/* Project pages */
+
+section.project-header {
+  height: 400px;
+  background-color: #141414;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+
+.project-header h4 {
+  font-size: 18px;
+  color:rgb(23, 216, 152);
+}
+
+section.project-body{
+  background-color: #e7e7e7;
+  color: #141414;
+  display: flex;
+  border-top: 3px solid #141414;
+}
+
+.project-body img {
+  width: 500px;
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.project-copy {
+  width: 400px;
+}
+
+div.project-copy {
+  padding: 60px;
+}
+
+section.full-width-copy {
+  background-color: #e7e7e7;
+  height: 100%;
+  color: #141414;
+  padding: 60px;
+  border-top: 3px solid #141414;
 }
 
 /* Media queries */
