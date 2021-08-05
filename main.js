@@ -111,21 +111,21 @@ var TxtType = function(el, toRotate, period) {
         }
     };
 
-// Lightbox 
-$('.photos a').on('click', function() {
+// // Lightbox 
+// $('.photos a').on('click', function() {
   
-  var currentImage = $(this).html()
+//   var currentImage = $(this).html()
 
-  $('.modal-content').html(currentImage)
+//   $('.modal-content').html(currentImage)
 
-  $('.modal').fadeIn(600)
-  return false
-})
+//   $('.modal').fadeIn(600)
+//   return false
+// })
 
-$('.modal-close, .modal-background').on('click', function() {
-  $('.modal').fadeOut(600)
-  return false
-})
+// $('.modal-close, .modal-background').on('click', function() {
+//   $('.modal').fadeOut(600)
+//   return false
+// })
 
 
 

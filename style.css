@@ -467,8 +467,8 @@ section.project-header {
 }
 
 section.project-body{
-  background-color: #fefefe;
-  color: #141414;
+  background-color: #1d1c1c;
+  color: aliceblue;
   display: flex;
   border-top: 3px solid #141414;
 }
@@ -490,16 +490,16 @@ div.project-copy {
   padding: 60px;
 }
 
-.project-copy a, .full-width-copy a {
+.project-copy a, .bodyLink {
   text-decoration: none;
-  color: #141414;
+  color: #05d194;
   border-bottom: 2px solid #141414;
 }
 
 section.full-width-copy {
-  background-color: #fefefe;
+  background-color: #1d1c1c;
   height: 100%;
-  color: #141414;
+  color: aliceblue;
   padding: 60px;
   border-top: 3px solid #141414;
 }
@@ -511,6 +511,7 @@ section.full-width-img img {
 
 section.full-width-img img:hover {
   transform: scale(1.01);
+  filter: opacity(0.9);
   transition: 0.5s ease;
 }
 
