@@ -700,20 +700,16 @@ span.themeToggleHidden {
   right: 0px;
 }
 
+a.viewButton {
+  padding: 5px 7px;
+}
+
 
 }
 
 @media (max-width:370px) {
   .photos {
     margin-left: 10px;
-  }
-}
-
-@media (max-width:520px) {
-  .photos a {
-    width: 100%;
-    padding: 0;
-    margin-bottom: 20px;
   }
 }
 
