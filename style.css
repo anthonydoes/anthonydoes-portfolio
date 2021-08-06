@@ -644,7 +644,10 @@ h3 {
 }
 
 .photo {
-  margin: 10px;
+  background-color: #051f40;
+  padding: 15px;
+  color: #f4f4f4;
+  border-radius: 25px;
 }
 
 .modal-content img {

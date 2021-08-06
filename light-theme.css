@@ -625,6 +625,10 @@ h3 {
 
 .photo {
   margin: 0;
+  background-color: #141414;
+  padding: 15px;
+  color: #f4f4f4;
+  border-radius: 25px;
 }
 
 .modal-content img {
@@ -686,6 +690,7 @@ span.themeToggleHidden {
 
   a.viewButton {
     padding: 5px 7px;
+
   }
 
 }
