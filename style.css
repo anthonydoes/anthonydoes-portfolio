@@ -553,6 +553,31 @@ section.full-width-img img:hover {
   transition: 0.4s ease;
 }
 
+@media (max-width:500px) {
+
+  section.project-body {
+    flex-direction: column;
+  }
+
+  section.project-body-reverse {
+    flex-direction: column-reverse;
+  }
+
+  div.project-copy {
+    width: 300px;
+    padding: 60px;
+  }
+
+  .project-body img {
+    width: 100%;
+  }
+
+  section.full-width-img {
+    padding: 0;
+  }
+
+}
+
 
 /* Media queries */
 
@@ -619,7 +644,7 @@ h3 {
 }
 
 .photo {
-  margin: 0;
+  margin: 10px;
 }
 
 .modal-content img {
