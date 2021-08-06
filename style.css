@@ -255,7 +255,7 @@ h3 {
 }
 
 .photo img {
-  max-width: 300px;
+  max-width: 310px;
 } 
 
 a.viewButton {
@@ -644,10 +644,7 @@ h3 {
 }
 
 .photo {
-  background-color: #051f40;
-  padding: 15px;
-  color: #f4f4f4;
-  border-radius: 25px;
+  margin: 10px;
 }
 
 .modal-content img {

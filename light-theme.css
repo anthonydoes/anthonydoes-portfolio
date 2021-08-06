@@ -243,8 +243,7 @@ h3 {
 }
 
 .photo img {
-  max-width: 300px;
-} 
+  max-width: 325px;} 
 
 a.viewButton {
   color: #fefefe;
@@ -617,6 +616,7 @@ h3 {
 
 .photo img {
   filter: none;
+  border: 1px solid #141414;
 }
 
 .photos {
@@ -625,10 +625,6 @@ h3 {
 
 .photo {
   margin: 0;
-  background-color: #141414;
-  padding: 15px;
-  color: #f4f4f4;
-  border-radius: 25px;
 }
 
 .modal-content img {
@@ -690,7 +686,7 @@ span.themeToggleHidden {
 
   a.viewButton {
     padding: 5px 7px;
-
+    
   }
 
 }
