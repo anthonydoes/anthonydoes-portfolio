@@ -250,7 +250,7 @@ h3 {
 
 .photo {
   width: 30%;
-  margin: 10px;
+  margin: 20px 10px;
   position: relative;
 }
 
@@ -266,12 +266,14 @@ a.viewButton {
   text-align: center;
   font-weight: 700;
   transition: 0.6s ease;
+  box-shadow: 2px 4px 12px 1px rgba(255, 255, 255, 0.5)
 }
 
 a.viewButton:hover {
   background-color: #2f5497;
   color: #fefefe;
   transition: 0.6s ease;
+  box-shadow: 2px 4px 12px 1px rgba(141, 172, 255, 0.5)
 }
 
 .designPill, .devPill, .apiPill {
@@ -368,7 +370,7 @@ textarea {
   margin-right: auto;
   border-radius: 20px;
   padding: 25px 80px;
-  box-shadow: 0 6px #383838;
+  box-shadow: 0 6px rgb(60, 92, 122);
   font-family: "Josefin Sans";
   text-transform: uppercase;
   cursor: pointer;
@@ -509,8 +511,15 @@ section.full-width-img img {
   transition: 0.5s ease;
 }
 
+section.full-width-img {
+  padding: 30px 230px;
+  background-color: #252525;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 section.full-width-img img:hover {
-  transform: scale(1.01);
+  transform: scale(1.04);
   filter: opacity(0.9);
   transition: 0.5s ease;
 }

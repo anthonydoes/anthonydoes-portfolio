@@ -254,12 +254,14 @@ a.viewButton {
   text-align: center;
   font-weight: 700;
   transition: 0.6s ease;
+  box-shadow: 2px 4px 12px 1px rgba(66, 66, 66, 0.5)
 }
 
 a.viewButton:hover {
     background-color: #fefefe;
     color: #3a3a3a;
     transition: 0.6s ease;
+    box-shadow: 2px 4px 12px 1px rgba(0, 0, 0, 0.5)
   }
 
 .designPill, .devPill, .apiPill {
@@ -495,6 +497,13 @@ section.full-width-img img:hover {
   transform: scale(1.01);
   filter: opacity(0.9);
   transition: 0.5s ease;
+}
+
+section.full-width-img {
+  padding: 30px 230px;
+  background-color: #141414;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .demoButton, .projectButton {
