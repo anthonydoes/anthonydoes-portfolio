@@ -243,7 +243,12 @@ h3 {
 }
 
 .photo img {
-  max-width: 300px;} 
+  max-width: 300px;
+}
+
+.photo p {
+  margin-bottom: 30px;
+}
 
 a.viewButton {
   color: #fefefe;
